@@ -4,6 +4,8 @@
 
 ![](docs/vr42-layout.svg)
 
+![](docs/vr42-render.png)
+
 ## Intent
 
 A 42-key micro keyboard designed for QMK with specific focus on ultra fast key scan rates / poll rates to make for an ideal gaming keyboard.
@@ -11,20 +13,16 @@ A 42-key micro keyboard designed for QMK with specific focus on ultra fast key s
 ## Planned Features
 
 - [ ] QMK / Vial build
-- [ ] 1x `STM32F411` STM32 CPU *(based on Black Pill design)*
-    - `STM32F411CE`
-    - 100Mhz Freq.
-    - 128KB RAM
-    - 512KB ROM
-- [ ] 1x `W25Q64JW` 8K SPI Flash Module
+- [ ] 1x `STM32F415` STM32 CPU *(ft. dual USB, one is FS, the other HS)*
+- [ ] 1x `TS3USB221` USB 2.0 Multiplexer for USB port selection *(based on [akeypad](https://github.com/luantty2/akeypad) )*
+- [ ] ~~1x `W25Q64JW` 8K SPI Flash Module~~
 - [ ] 1x `M95640-DRE` 8K SPI EEPROM Module
 - [ ] 6x `MC74HC589A` SPI Input Shift Registers
     - No QMK key matrix ... scan via individually grounded keys on shift registers
-- [ ] 2x `IS31FL3746A` I2C LED Matrix Drivers
+- [ ] 2x `IS31FL3746B` SPI LED Matrix Drivers
     - 43x RGB LED's
     - with power on/off MOSFET or latch circuit
 - [ ] C4 *(or S1)* UDB Usb-C - see: https://github.com/ai03-2725/Unified-Daughterboard
-- [ ] Maybe look at a 8KHz port IC offering 8KHz polling rate - see: https://github.com/luantty2/akeypad
 
 ## Possible BIG issues
 
