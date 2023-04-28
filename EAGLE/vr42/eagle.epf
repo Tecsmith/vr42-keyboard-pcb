@@ -266,10 +266,5 @@ UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 
-[Win_1]
-Type="Control Panel"
-Number=0
-
 [Desktop]
-Screen="2560 1600"
-Window="Win_1"
+Screen="7680 1440"
