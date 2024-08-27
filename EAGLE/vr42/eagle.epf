@@ -271,6 +271,7 @@ UsedLibrary="/Users/vino/Documents/EAGLE/libraries/SparkFun-Eagle-Libraries-syml
 UsedLibrary="/Users/vino/Documents/EAGLE/libraries/ts-eagle-lib-symlink-a/st.lbr"
 UsedLibrary="/Users/vino/Documents/EAGLE/libraries/ts-eagle-lib-symlink-a/molex-pico-ezmate.lbr"
 UsedLibrary="/Users/vino/Documents/EAGLE/libraries/ts-eagle-lib-symlink-a/random_logos.lbr"
+UsedLibrary="/Users/vino/Documents/EAGLE/libraries/tag-connect.lbr"
 
 [Win_1]
 Type="Control Panel"
