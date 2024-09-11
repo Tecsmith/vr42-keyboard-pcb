@@ -8974,6 +8974,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="-2.032" y="1.778" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-1.905" y="-2.159" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="FIDUCIAL">
+<circle x="0" y="0" radius="0.325" width="0.65" layer="1"/>
+<circle x="0" y="0" radius="0.325" width="0.65" layer="16"/>
+<circle x="0" y="0" radius="0.65" width="1.3" layer="29"/>
+<circle x="0" y="0" radius="0.65" width="1.3" layer="30"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="41"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="42"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="40"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VR42_MLB_FOOTPRINT">
@@ -9053,6 +9063,10 @@ FOOTPRINT</text>
 <wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
 </symbol>
+<symbol name="FIDUCIAL">
+<text x="0" y="0" size="1.778" layer="94" align="center">F</text>
+<circle x="0" y="0" radius="1.778" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VR42_MLB_FOOTPRINT">
@@ -9122,6 +9136,18 @@ FOOTPRINT</text>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19191,6 +19217,9 @@ Pin 6 - RESET</description>
 <part name="X2" library="__temp_to_delete" deviceset="CRYSTAL" device="2.5X2.0" value="32.768MHz"/>
 <part name="X3" library="__temp_to_delete" deviceset="CRYSTAL" device="2.5X2.0" value="24MHz"/>
 <part name="X1" library="__temp_to_delete" deviceset="CRYSTAL" device="2.5X2.0" value="12MHz"/>
+<part name="U$7" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="U$9" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="U$8" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19508,6 +19537,9 @@ Power Circuit</text>
 <attribute name="NAME" x="93.98" y="100.33" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.964" y="102.87" size="1.778" layer="96"/>
 </instance>
+<instance part="U$7" gate="G$1" x="177.8" y="20.32" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="187.96" y="20.32" smashed="yes"/>
+<instance part="U$8" gate="G$1" x="182.88" y="20.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>

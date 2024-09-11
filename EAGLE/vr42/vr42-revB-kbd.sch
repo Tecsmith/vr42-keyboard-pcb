@@ -8680,6 +8680,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="-7" y="-6.25" radius="2" width="0.0001" layer="48"/>
 <wire x1="0" y1="8.25" x2="0" y2="-8.25" width="0" layer="48" style="shortdash"/>
 </package>
+<package name="FIDUCIAL">
+<circle x="0" y="0" radius="0.325" width="0.65" layer="1"/>
+<circle x="0" y="0" radius="0.325" width="0.65" layer="16"/>
+<circle x="0" y="0" radius="0.65" width="1.3" layer="29"/>
+<circle x="0" y="0" radius="0.65" width="1.3" layer="30"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="41"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="42"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="40"/>
+<circle x="0" y="0" radius="0.975" width="0.65" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ARGB">
@@ -8755,6 +8765,10 @@ FOOTPRINT</text>
 <symbol name="UDB_FOOTPRINT">
 <text x="0" y="0" size="1.27" layer="94">UBD FOOTPRINT</text>
 </symbol>
+<symbol name="FIDUCIAL">
+<text x="0" y="0" size="1.778" layer="94" align="center">F</text>
+<circle x="0" y="0" radius="1.778" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARGB">
@@ -8813,6 +8827,18 @@ FOOTPRINT</text>
 </gates>
 <devices>
 <device name="" package="UDB_FOOTPRINT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15906,6 +15932,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U$3" library="random_logos" deviceset="TECSMITH-LOGO" device="LONG"/>
 <part name="U$4" library="random_logos" deviceset="QMK_LOGO" device=""/>
 <part name="LOGO1" library="random_logos" deviceset="OSHW-LOGO" device="L"/>
+<part name="U$5" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="U$6" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="U$7" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16057,6 +16086,9 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="U$3" gate="G$1" x="165.1" y="20.32" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="165.1" y="15.24" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="165.1" y="17.78" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="165.1" y="7.62" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="170.18" y="7.62" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="175.26" y="7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
