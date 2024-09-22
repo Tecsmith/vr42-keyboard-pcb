@@ -19220,6 +19220,7 @@ Pin 6 - RESET</description>
 <part name="U$7" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 <part name="U$9" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
 <part name="U$8" library="__temp_to_delete" deviceset="FIDUCIAL" device=""/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4,7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -19540,6 +19541,10 @@ Power Circuit</text>
 <instance part="U$7" gate="G$1" x="177.8" y="20.32" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="187.96" y="20.32" smashed="yes"/>
 <instance part="U$8" gate="G$1" x="182.88" y="20.32" smashed="yes"/>
+<instance part="C34" gate="G$1" x="10.16" y="22.86" smashed="yes">
+<attribute name="NAME" x="11.684" y="23.241" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.684" y="18.161" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19636,6 +19641,10 @@ Power Circuit</text>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="17.78" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <junction x="30.48" y="15.24"/>
+<wire x1="20.32" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
+<junction x="20.32" y="15.24"/>
+<pinref part="C34" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -19887,6 +19896,10 @@ Power Circuit</text>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <junction x="40.64" y="27.94"/>
+<wire x1="20.32" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="27.94"/>
+<pinref part="C34" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC_2"/>

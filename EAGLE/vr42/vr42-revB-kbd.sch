@@ -8136,8 +8136,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <packages>
 <package name="MX-5-PIN-HOTSWAP-PAD">
 <hole x="0" y="0" drill="3.9878"/>
-<hole x="-5.08" y="0" drill="1.75"/>
-<hole x="5.08" y="0" drill="1.75"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
 <wire x1="-5" y1="7" x2="-7" y2="7" width="0.15" layer="51"/>
 <wire x1="-7" y1="7" x2="-7" y2="5" width="0.15" layer="51"/>
 <wire x1="5" y1="7" x2="7" y2="7" width="0.15" layer="51"/>
@@ -8160,31 +8160,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="4.315" y1="3" x2="-0.185" y2="3" width="0.15" layer="22"/>
 <wire x1="-0.185" y1="3" x2="-2.085" y2="1.1" width="0.15" layer="22" curve="90"/>
 <wire x1="-2.085" y1="1.1" x2="-6.085" y2="1.1" width="0.15" layer="22"/>
-<circle x="-1.27" y="-5.08" radius="0.5" width="0.015" layer="21"/>
-<circle x="1.27" y="-5.08" radius="0.5" width="0.015" layer="21"/>
-<circle x="-3.81" y="-5.08" radius="0.5" width="0.015" layer="21"/>
-<circle x="3.81" y="-5.08" radius="0.5" width="0.015" layer="21"/>
-<pad name="1@2" x="-3.81" y="2.54" drill="3" diameter="3.75"/>
-<pad name="2@2" x="2.54" y="5.08" drill="3" diameter="3.75"/>
-</package>
-<package name="MX-5-PIN-HOTSWAP-PAD-NS">
-<hole x="0" y="0" drill="3.9878"/>
-<hole x="-5.08" y="0" drill="1.75"/>
-<hole x="5.08" y="0" drill="1.75"/>
-<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7" size="1.27" layer="26" rot="MR0" align="bottom-center">&gt;NAME</text>
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.015" layer="21"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.015" layer="21"/>
-<smd name="1@1" x="-6.785" y="2.54" dx="3.15" dy="2.5" layer="16"/>
-<smd name="2@1" x="5.542" y="5.08" dx="3.15" dy="2.5" layer="16"/>
-<wire x1="-6.085" y1="1.1" x2="-6.085" y2="4" width="0.15" layer="22" style="shortdash"/>
-<wire x1="-6.085" y1="4" x2="-3.085" y2="7" width="0.15" layer="22" style="shortdash" curve="-90"/>
-<wire x1="-3.085" y1="7" x2="4.815" y2="7" width="0.15" layer="22" style="shortdash"/>
-<wire x1="4.815" y1="7" x2="4.815" y2="3.5" width="0.15" layer="22" style="shortdash"/>
-<wire x1="4.815" y1="3.5" x2="4.315" y2="3" width="0.15" layer="22" style="shortdash" curve="-90"/>
-<wire x1="4.315" y1="3" x2="-0.185" y2="3" width="0.15" layer="22" style="shortdash"/>
-<wire x1="-0.185" y1="3" x2="-2.085" y2="1.1" width="0.15" layer="22" style="shortdash" curve="90"/>
-<wire x1="-2.085" y1="1.1" x2="-6.085" y2="1.1" width="0.15" layer="22" style="shortdash"/>
+<circle x="-1.27" y="-5.08" radius="0.5" width="0.015" layer="51"/>
+<circle x="1.27" y="-5.08" radius="0.5" width="0.015" layer="51"/>
+<circle x="-3.81" y="-5.08" radius="0.5" width="0.015" layer="51"/>
+<circle x="3.81" y="-5.08" radius="0.5" width="0.015" layer="51"/>
 <pad name="1@2" x="-3.81" y="2.54" drill="3" diameter="3.75"/>
 <pad name="2@2" x="2.54" y="5.08" drill="3" diameter="3.75"/>
 </package>
@@ -8199,25 +8178,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <circle x="11.938" y="-6.985" radius="1.65" width="0.15" layer="22"/>
 <circle x="-11.938" y="-6.985" radius="2.124" width="0.5" layer="22"/>
 <circle x="11.938" y="-6.985" radius="2.124" width="0.5" layer="22"/>
-<wire x1="-11.938" y1="9.525" x2="11.938" y2="9.525" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-11.938" y1="9.525" x2="11.938" y2="9.525" width="0.127" layer="21" style="shortdash"/>
 </package>
 <package name="SK6812-E-MILL">
 <text x="3.953" y="2.622" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
-<wire x1="1.6" y1="-1.399" x2="-1.6" y2="-1.399" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.399" x2="-1.6" y2="0.501" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.501" x2="-1.6" y2="1.401" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.401" x2="-0.7" y2="1.401" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="1.401" x2="1.6" y2="1.401" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.401" x2="1.6" y2="-1.399" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.501" x2="-0.7" y2="1.401" width="0.127" layer="21"/>
 <smd name="1-VDD" x="2.7" y="-0.75" dx="1.2" dy="0.9" layer="16"/>
 <smd name="2-DOUT" x="2.7" y="0.75" dx="1.2" dy="0.9" layer="16"/>
 <smd name="4-DIN" x="-2.7" y="-0.75" dx="1.2" dy="0.9" layer="16"/>
 <smd name="3-GND" x="-2.7" y="0.75" dx="1.2" dy="0.9" layer="16"/>
-<circle x="0" y="0.001" radius="1.1" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="1.401" x2="-0.4" y2="1.701" width="0.127" layer="21"/>
-<wire x1="-0.4" y1="1.701" x2="-0.8" y2="2.101" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="2.101" x2="-1.6" y2="1.401" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="1.7" x2="1.7" y2="1.7" width="0" layer="20"/>
 <wire x1="1.7" y1="1.7" x2="1.9" y2="1.5" width="0" layer="20" curve="-90"/>
 <wire x1="1.9" y1="1.5" x2="1.9" y2="-1.5" width="0" layer="20"/>
@@ -8238,30 +8206,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-0.7" y1="1.401" x2="-0.4" y2="1.701" width="0.127" layer="52"/>
 <wire x1="-0.4" y1="1.701" x2="-0.8" y2="2.101" width="0.127" layer="52"/>
 <wire x1="-0.8" y1="2.101" x2="-1.6" y2="1.401" width="0.127" layer="52"/>
-<wire x1="-1.7" y1="-2.5" x2="1.7" y2="-2.5" width="0.2" layer="22"/>
-<wire x1="1.7" y1="-2.5" x2="1.086" y2="-2.259" width="0.2" layer="22"/>
-<wire x1="1.086" y1="-2.259" x2="1.086" y2="-2.748" width="0.2" layer="22"/>
-<wire x1="1.086" y1="-2.748" x2="1.7" y2="-2.5" width="0.2" layer="22"/>
+<wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.2" layer="22"/>
+<wire x1="1" y1="-2.5" x2="0.386" y2="-2.259" width="0.2" layer="22"/>
+<wire x1="0.386" y1="-2.259" x2="0.386" y2="-2.748" width="0.2" layer="22"/>
+<wire x1="0.386" y1="-2.748" x2="1" y2="-2.5" width="0.2" layer="22"/>
 <wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.4" layer="46"/>
 <wire x1="-1.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.4" layer="46"/>
 <wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.4" layer="46"/>
 <wire x1="1.7" y1="1.5" x2="-1.7" y2="1.5" width="0.4" layer="46"/>
+<wire x1="-3" y1="2" x2="-4" y2="1" width="0.127" layer="22"/>
+<wire x1="-4" y1="1" x2="-3.5" y2="1" width="0.127" layer="22"/>
+<wire x1="-3" y1="2" x2="-3" y2="1.4" width="0.127" layer="22"/>
 </package>
 <package name="SK6812-E-DRILL">
 <text x="3.953" y="2.622" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
-<wire x1="1.6" y1="-1.399" x2="-1.6" y2="-1.399" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.399" x2="-1.6" y2="1.401" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.401" x2="1.6" y2="1.401" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.401" x2="1.6" y2="-1.399" width="0.127" layer="21"/>
 <smd name="1-VDD" x="2.7" y="-0.75" dx="1.1" dy="0.9" layer="16"/>
 <smd name="2-DOUT" x="2.7" y="0.75" dx="1.1" dy="0.9" layer="16"/>
 <smd name="4-DIN" x="-2.7" y="-0.75" dx="1.1" dy="0.9" layer="16"/>
 <smd name="3-GND" x="-2.7" y="0.75" dx="1.1" dy="0.9" layer="16"/>
-<circle x="0" y="0.001" radius="1.1" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="-2.8" x2="1.7" y2="-2.8" width="0.2" layer="22"/>
-<wire x1="1.7" y1="-2.8" x2="1.086" y2="-2.559" width="0.2" layer="22"/>
-<wire x1="1.086" y1="-2.559" x2="1.086" y2="-3.048" width="0.2" layer="22"/>
-<wire x1="1.086" y1="-3.048" x2="1.7" y2="-2.8" width="0.2" layer="22"/>
 <hole x="0" y="0" drill="4.6"/>
 <wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.127" layer="52"/>
 <wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="52"/>
@@ -8270,6 +8232,31 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-3" y1="2" x2="-4" y2="1" width="0.127" layer="22"/>
 <wire x1="-4" y1="1" x2="-3.5" y2="1" width="0.127" layer="22"/>
 <wire x1="-3" y1="2" x2="-3" y2="1.4" width="0.127" layer="22"/>
+<wire x1="-1" y1="-2.9" x2="1" y2="-2.9" width="0.2" layer="22"/>
+<wire x1="1" y1="-2.9" x2="0.386" y2="-2.659" width="0.2" layer="22"/>
+<wire x1="0.386" y1="-2.659" x2="0.386" y2="-3.148" width="0.2" layer="22"/>
+<wire x1="0.386" y1="-3.148" x2="1" y2="-2.9" width="0.2" layer="22"/>
+</package>
+<package name="MX-5-PIN-HOTSWAP-PAD-NS">
+<hole x="0" y="0" drill="3.9878"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<text x="0" y="7.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7" size="1.27" layer="26" rot="MR0" align="bottom-center">&gt;NAME</text>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.015" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.015" layer="21"/>
+<smd name="1@1" x="-6.785" y="2.54" dx="3.15" dy="2.5" layer="16"/>
+<smd name="2@1" x="5.542" y="5.08" dx="3.15" dy="2.5" layer="16"/>
+<wire x1="-6.085" y1="1.1" x2="-6.085" y2="4" width="0.15" layer="22" style="shortdash"/>
+<wire x1="-6.085" y1="4" x2="-3.085" y2="7" width="0.15" layer="22" style="shortdash" curve="-90"/>
+<wire x1="-3.085" y1="7" x2="4.815" y2="7" width="0.15" layer="22" style="shortdash"/>
+<wire x1="4.815" y1="7" x2="4.815" y2="3.5" width="0.15" layer="22" style="shortdash"/>
+<wire x1="4.815" y1="3.5" x2="4.315" y2="3" width="0.15" layer="22" style="shortdash" curve="-90"/>
+<wire x1="4.315" y1="3" x2="-0.185" y2="3" width="0.15" layer="22" style="shortdash"/>
+<wire x1="-0.185" y1="3" x2="-2.085" y2="1.1" width="0.15" layer="22" style="shortdash" curve="90"/>
+<wire x1="-2.085" y1="1.1" x2="-6.085" y2="1.1" width="0.15" layer="22" style="shortdash"/>
+<pad name="1@2" x="-3.81" y="2.54" drill="3" diameter="3.75"/>
+<pad name="2@2" x="2.54" y="5.08" drill="3" diameter="3.75"/>
 </package>
 </packages>
 <symbols>
