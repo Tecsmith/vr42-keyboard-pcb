@@ -1,14 +1,29 @@
 # VR42-Keyboard-PCB
 
-> &#128679; Placeholder for future project &#128679;
+> &#128679; `Product under development` &#128679; <br>
+> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
+> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888; ***DO NOT BUILD*** &#9888; <br>
+> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888;&#9888; <br>
+> &#128679; `_________________________` &#128679;
 
-![](docs/vr42-layout.svg)
-
-![](docs/vr42-render.png)
 
 ## Intent
 
 A 42-key micro keyboard designed for QMK with specific focus on ultra fast key scan rates / poll rates to make for an ideal gaming keyboard.
+
+### Layout ideation renders
+
+#### Render
+
+![Render](docs/vr42-render.png)
+
+#### Layout
+
+![Layout](docs/vr42-layout.png)
+
+#### Matrix coordinates *(QMK & VIA)*
+
+![Matrix](docs/vr42-matrix.png)
 
 ## Planned Features
 
@@ -26,6 +41,7 @@ A 42-key micro keyboard designed for QMK with specific focus on ultra fast key s
     - With power on/off `TPS22995H-Q1` load switch
 - [ ] C4 *(or S1)* UDB Usb-C - see: https://github.com/ai03-2725/Unified-Daughterboard
 
+
 ## Possible BIG issues
 
 - With very limited PCB space, 13x IC's may not fit :(
@@ -33,3 +49,7 @@ A 42-key micro keyboard designed for QMK with specific focus on ultra fast key s
 - Not sure dual USB is switchable with the USB multiplexer
     - FS USB required for Bootloader
     - HS USB required for >1KHz polling rates
+
+
+---
+Made with &#9829; by Vino Rodrigues
