@@ -19146,7 +19146,7 @@ Pin 6 - RESET</description>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="3V3"/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EEP" library="ts_kb_mcu" deviceset="M25C" device=""/>
+<part name="EEPROM" library="ts_kb_mcu" deviceset="M25C" device=""/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="3V3"/>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="3V3"/>
@@ -19156,7 +19156,7 @@ Pin 6 - RESET</description>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC_2" device="" value="3V3"/>
-<part name="KB_MTX" library="molex-pico-ezmate" deviceset="MOLEX_0781710006" device=""/>
+<part name="KB_MATRIX" library="molex-pico-ezmate" deviceset="MOLEX_0781710006" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="ARGB" library="molex-pico-ezmate" deviceset="MOLEX_0781710003" device=""/>
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -19454,7 +19454,7 @@ Power Circuit</text>
 <instance part="SUPPLY23" gate="GND" x="231.14" y="78.74" smashed="yes">
 <attribute name="VALUE" x="231.267" y="76.835" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="EEP" gate="G$1" x="132.08" y="160.02" smashed="yes">
+<instance part="EEPROM" gate="G$1" x="132.08" y="160.02" smashed="yes">
 <attribute name="NAME" x="124.46" y="165.354" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="124.46" y="152.146" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
@@ -19486,7 +19486,7 @@ Power Circuit</text>
 <instance part="SUPPLY32" gate="G$1" x="132.08" y="30.48" smashed="yes">
 <attribute name="VALUE" x="132.08" y="33.528" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="KB_MTX" gate="G$1" x="137.16" y="15.24" smashed="yes" rot="R90">
+<instance part="KB_MATRIX" gate="G$1" x="137.16" y="15.24" smashed="yes" rot="R90">
 <attribute name="VALUE" x="126.238" y="8.89" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="129.286" y="10.16" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
@@ -19764,7 +19764,7 @@ Power Circuit</text>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="GND"/>
+<pinref part="EEPROM" gate="G$1" pin="GND"/>
 <wire x1="121.92" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY27" gate="GND" pin="GND"/>
 <wire x1="119.38" y1="154.94" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
@@ -19779,7 +19779,7 @@ Power Circuit</text>
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
 <wire x1="124.46" y1="25.4" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="25.4" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="1"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="USBSEL" gate="A" pin="!OE"/>
@@ -19805,7 +19805,7 @@ Power Circuit</text>
 <wire x1="152.4" y1="22.86" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="22.86" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="20.32" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="M"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="M"/>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -19945,9 +19945,9 @@ Power Circuit</text>
 <pinref part="SUPPLY24" gate="G$1" pin="VCC_2"/>
 <pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="165.1" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="EEP" gate="G$1" pin="VCC"/>
+<pinref part="EEPROM" gate="G$1" pin="VCC"/>
 <wire x1="154.94" y1="162.56" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="EEP" gate="G$1" pin="!HLD"/>
+<pinref part="EEPROM" gate="G$1" pin="!HLD"/>
 <wire x1="142.24" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <junction x="154.94" y="162.56"/>
@@ -19956,7 +19956,7 @@ Power Circuit</text>
 <junction x="144.78" y="162.56"/>
 </segment>
 <segment>
-<pinref part="EEP" gate="G$1" pin="!WP"/>
+<pinref part="EEPROM" gate="G$1" pin="!WP"/>
 <wire x1="121.92" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="G$1" pin="VCC_2"/>
 <wire x1="119.38" y1="157.48" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
@@ -19966,7 +19966,7 @@ Power Circuit</text>
 <wire x1="132.08" y1="27.94" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY32" gate="G$1" pin="VCC_2"/>
 <wire x1="134.62" y1="22.86" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="2"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="USBSEL" gate="A" pin="VCC"/>
@@ -20328,7 +20328,7 @@ Power Circuit</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="EEP" gate="G$1" pin="DIO"/>
+<pinref part="EEPROM" gate="G$1" pin="DIO"/>
 <wire x1="142.24" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="144.78" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -20339,13 +20339,13 @@ Power Circuit</text>
 </segment>
 <segment>
 <wire x1="137.16" y1="22.86" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="3"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="3"/>
 <label x="137.16" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="EEP" gate="G$1" pin="CLK"/>
+<pinref part="EEPROM" gate="G$1" pin="CLK"/>
 <wire x1="142.24" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 <label x="144.78" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -20356,13 +20356,13 @@ Power Circuit</text>
 </segment>
 <segment>
 <wire x1="142.24" y1="22.86" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="5"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="5"/>
 <label x="142.24" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="CS_EE" class="0">
 <segment>
-<pinref part="EEP" gate="G$1" pin="!CS"/>
+<pinref part="EEPROM" gate="G$1" pin="!CS"/>
 <wire x1="121.92" y1="162.56" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
 <label x="116.84" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -20374,7 +20374,7 @@ Power Circuit</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="EEP" gate="G$1" pin="DO"/>
+<pinref part="EEPROM" gate="G$1" pin="DO"/>
 <wire x1="121.92" y1="160.02" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
 <label x="116.84" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -20385,14 +20385,14 @@ Power Circuit</text>
 </segment>
 <segment>
 <wire x1="139.7" y1="22.86" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="4"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="4"/>
 <label x="139.7" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="CS_MTX" class="0">
 <segment>
 <wire x1="144.78" y1="22.86" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="KB_MTX" gate="G$1" pin="6"/>
+<pinref part="KB_MATRIX" gate="G$1" pin="6"/>
 <label x="144.78" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
