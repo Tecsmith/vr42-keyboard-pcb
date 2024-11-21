@@ -1,18 +1,21 @@
-# VR42-Keyboard-PCB
+# VR42 Keyboard PCB
 
-<p align="center"><img src="docs/donotbuild.min.svg" alt="Under Construction" width="320"></p>
+<p align="center"><img alt="Do not build" src="docs/donotbuild.min.svg" width="213"></p>
+<blockquote align="center"><b>NB:</b> This project design is complete, but has not been prototyped for validation.</blockquote>
 
 ## Intent
 
 A 42-key micro keyboard designed for QMK with specific focus on ultra fast key scan rates / poll rates to make for an ideal gaming keyboard.
 
+#### Progression
 
-## Progression
-
-- **22 Sep 2024**: Beta 1 done
-  - WARNING: Not manufactured *(yet)*
-  - WARNING: Not tested *(yet)*
 - See [CHANGELOG.md](CHANGELOG.md)
+
+## Case
+
+This case is designed in conjunction with the [VR42 Keyboard Case](https://github.com/tecsmith/vr42-keyboard-case).  These two projects are mutually inclusive and built as one solution.
+
+<p align="center"><img src="docs/vr42-case.png" width="480"></p>
 
 ## Resources
 
@@ -31,10 +34,12 @@ A 42-key micro keyboard designed for QMK with specific focus on ultra fast key s
 ### Beta PCB renders
 
 #### Top
-![](docs/vr42-revB-top.png)
+
+<p align="center"><img src="docs/vr42-revB-top.png" width="640"></p>
 
 #### Bottom *(Component side)*
-![](docs/vr42-revB-btm.png)
+
+<p align="center"><img src="docs/vr42-revB-btm.png" width="640"></p>
 
 #### Intra-Board Connectors
 
@@ -50,13 +55,16 @@ You will need 3x Molex Pico-EZMate cables
 ### Layout ideation renders
 
 #### Render
-![Render](docs/vr42-render.png)
+
+<p align="center"><img src="docs/vr42-render.png" width="640"></p>
 
 #### Layout
-![Layout](docs/vr42-layout.png)
+
+<p align="center"><img src="docs/vr42-layout.png" width="640"></p>
 
 #### Matrix coordinates *(QMK & VIA)*
-![Matrix](docs/vr42-matrix.png)
+
+<p align="center"><img src="docs/vr42-matrix.png" width="640"></p>
 
 
 ## Planned Features
