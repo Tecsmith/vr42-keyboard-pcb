@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="2" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -270,6 +270,12 @@ Vino Rodrigues</text>
 <wire x1="7.75" y1="2.75" x2="7.9" y2="2.9" width="0.0762" layer="25"/>
 <wire x1="8.65" y1="3.625" x2="8.5" y2="3.475" width="0.0762" layer="25"/>
 <wire x1="7.875" y1="3.475" x2="7.725" y2="3.625" width="0.0762" layer="25"/>
+<dimension x1="3" y1="27" x2="67" y2="27" x3="35" y3="32" textsize="0.8128" layer="47" width="0.1"/>
+<dimension x1="0" y1="30" x2="70" y2="30" x3="35" y3="35" textsize="0.8128" layer="47" width="0.1"/>
+<dimension x1="67" y1="27" x2="67" y2="3" x3="72" y3="15" textsize="0.8128" layer="47" width="0.1"/>
+<dimension x1="70" y1="0" x2="70" y2="30" x3="75" y3="15" textsize="0.8128" layer="47" width="0.1"/>
+<dimension x1="25" y1="-0.6" x2="35" y2="-0.7" x3="29.9859625" y3="-2.053859375" textsize="0.8128" layer="47" width="0.1"/>
+<dimension x1="35" y1="-0.7" x2="45" y2="-0.8" x3="39.985990625" y3="-2.150859375" textsize="0.8128" layer="47" width="0.1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
